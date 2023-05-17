@@ -5,16 +5,18 @@
     <title>Contactenos</title>
   </head>
 
-  <h1 align="center">
+  <h1 id="title">
     CONTACTO
   </h1>
+
+  <hr class="line">
 
   <body>
     <div id="phones">
       <h2>
         Llamanos
       </h2>
-  
+
       <ul>
         <li>Sin costo desde México:</li>
         <li>(800) 201 2084</li>
@@ -41,21 +43,36 @@
       </ul>
     </div>
     
-    <div>
+    <div id="zip-code">
       <h2>Direccion Postal</h2>
       <p>Ctra. Panamericana s/n Km. 18.5, Bravo, CP 32690 Chihuahua, Chihuahua.</p>
     </div>
 
-    <h2>
-      ¿Quieres atencion personalizada?
-    </h2>
-
-    <p>Rellena el siguiente formulario y servicio al cliente se pondra en contacto contigo</p>
-
     <div id="form">
-      <label for="text">Contraseña</label>
-      <input type="text" id="password" />
-      <a id="show" type="button" href="#">send</a>
+      <h2>
+        ¿Quieres atencion personalizada?
+      </h2>
+  
+      <p>Rellena el siguiente formulario y servicio al cliente se pondra en contacto contigo</p>
+
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+
+        <label for="telefono">Numero de telefono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"required><br>
+
+        <label for="descripcion">Descripcion del problema:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+      </form>
     </div>
 
   </body>
