@@ -22,7 +22,7 @@ Si cuentas con alguna versión de node te la imprimirá en pantalla de otro modo
 
 Una vez hayas realizado lo anterior, lo que debes de hacer es clonar el proyecto en la carpeta de tu preferencia de la siguiente manera:
 ```json
-gitcone: https://github.com/gabop0911/proyecto2etapa.git
+git clone: https://github.com/gabop0911/proyecto2etapa.git
 ```
 Te dejará una carpeta con el llamada "proyecto2etapa" a la cual si ingresas estarán todos los archivos que se requieren para que este sitio funcione.
 
