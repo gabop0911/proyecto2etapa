@@ -9,7 +9,7 @@ Este proyecto fue realizado en JavaScript, HTML y CSS en el cual se tiene una em
 
 ## Authors
 
-* **Jared Flores Martínez (353391)**
+* **Jared Flores Martínez (353391).**
 * **Gabriel Jesus Bustillos Fierro (353267).**
 * **Gabriel Isaí Prieto Sáenz (353297).**
 
@@ -41,4 +41,4 @@ Si deseas editarlos o realizar alguna modificación a los scripts lo puedes hace
 
 
 # ¿Dudas? ¿Sugerencias?
-Si quieres que realicemos alguna mejora general, abre un "issue" aquí en github. Lo arreglaré lo antes posible.
+Si quieres que realicemos alguna mejora general, abre un "issue" aquí en github. Lo arreglaremos lo antes posible.
